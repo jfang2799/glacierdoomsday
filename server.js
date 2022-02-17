@@ -8,7 +8,7 @@ const axios = require('axios');
 let instance = axios.create({
 	baseURL: 'https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes',
 	headers: {
-		'X-CMC_PRO_API_KEY' :  '26dc4fc8-165f-4abf-9c4f-4d5e7ae58aaa'
+		'X-CMC_PRO_API_KEY' :  ''
 	}
 });
 
